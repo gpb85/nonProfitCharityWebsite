@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+body {
+  background-color: rgba(194, 166, 122, 1);
+}
+
 .contact-form {
   margin-top: 50px;
 }
@@ -86,8 +90,6 @@ footer {
   color: white;
   opacity: 0.9;
 }
-
-/*hover effects on social Media Icons*/
 
 #social-icons a:hover {
   background-color: grey;
