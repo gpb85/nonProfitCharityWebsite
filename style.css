@@ -118,7 +118,6 @@ footer {
   font-weight: 400;
   margin: 0px 5px;
 }
-
 .row .col-xl-12 h3 {
   text-align: center;
 }
@@ -241,4 +240,23 @@ figure figcaption h7 {
 .col-xl-6 .text-center #donationformheader {
   letter-spacing: 1px;
   border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+#carouselExampleIndicators1 {
+  max-width: 70%; /* Περιορισμός του carousel στο 70% του πλάτους του container */
+  margin: auto; /* Κέντραρισμα του carousel στον container */
+}
+
+.carousel-inner img {
+  width: 100%; /* Καθολικό μέγεθος 100% για τις εικόνες μέσα στο carousel */
+  height: auto; /* Αυτόματο ύψος για διατήρηση της αναλογίας */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
 }
