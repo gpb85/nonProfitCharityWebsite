@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+.contact-form {
+            margin-top: 50px;
+        }
+
+        .contact-form label {
+            font-weight: bold;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            margin-bottom: 15px;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form input[type="tel"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+        }
+
+        .contact-form textarea {
+            resize: vertical;
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 12px 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .contact-form input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+h1 {
+	color:#333;
+	margin-bottom: 60px;
+}
+
+iframe{width:80%;
+height:250px;}
+    .container .row {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+}
